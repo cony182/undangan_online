@@ -1,0 +1,97 @@
+/* ============INDEX.PHP=========== */
+.main   {
+    padding-left: 28px;
+    padding-right: 0px;
+}
+
+.con   {
+    height: 100%;
+    width: 100%;
+}
+
+.judul {
+    height: 870px;
+    overflow: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.font-judul     {
+    font-size: small;
+}
+
+.border-judul   {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(156, 156, 156);
+}
+
+/* Admin */
+textarea    {
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(156, 156, 156);
+}
+
+input {
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(156, 156, 156);
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    color: blanchedalmond;
+}
+
+.font   {
+    background-color: rgb(58, 83, 75);
+    color: blanchedalmond;
+}
+
+.judul-content  {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.teks   {
+    height: 798px;
+    width: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+    textarea    {
+        border-radius: 5px;
+        border: 2px;
+        border-style: solid;
+        border-color: rgb(156, 156, 156);
+    }
+    
+    input {
+        border-radius: 5px;
+        border: 3px;
+        border-style: solid;
+        border-color: rgb(156, 156, 156);
+    }
+
+    .judul {
+        height: 200px;
+        overflow: auto;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        height: 300px;
+        overflow: auto;
+    }
+
+    .navbar-brand    {
+        margin-left: -8px;
+    }
+} 

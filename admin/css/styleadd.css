@@ -1,0 +1,47 @@
+.font   {
+    background-color: rgb(58, 83, 75);
+    color: blanchedalmond;
+}
+
+.container-input {
+    border: 1px;
+    border-style: solid;
+    border-color: teal;
+    border-radius: 6px;
+}
+
+.container-form {
+    padding-top: 15px;
+}
+
+.input-judul {
+    width: 100%;
+}
+
+.input-text {
+    height: 753px;
+    width: 100%;
+}
+
+input {
+    border: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: teal;
+}
+
+textarea {
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: teal;
+}
+
+/* ============LOGIN============= */
+
+@media (max-width: 600px) {
+    .navbar-brand    {
+        margin-left: -6px;
+    }
+
+} 

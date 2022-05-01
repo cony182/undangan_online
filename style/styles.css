@@ -1,0 +1,162 @@
+body {
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: #989da1;
+}
+
+.font   {
+  background-color: rgb(58, 83, 75);
+  color: blanchedalmond;
+}
+
+.ass {
+  margin-top: -30px;
+}
+
+.judul {
+  height: 660px;
+  overflow: auto;
+}
+
+.teks {
+  height: 750px;
+  overflow: auto;
+}
+
+
+
+@media (max-width: 600px) {
+  .judul {
+      height: 250px;
+      overflow: auto;
+      margin-bottom: 10px;
+      margin: 5px;
+  }
+
+  .teks {
+      height: 420px;
+      overflow: auto;
+      margin-top: 10px;
+  }
+  body {
+    padding-top: 0;
+  }
+} 
+
+/* ========================================== */
+
+/* SOCIAL ICON */
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #848a91;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin: 5px;
+}
+
+/* .social-icons a:last-child {
+  margin-right: 0;
+} */
+
+.social-icons a:hover {
+  background-color: #54494B;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+/* .dev-icons .list-inline-item i:hover {
+  color: #54494B;
+} */
+/* =========================================== */
+
+  h1,
+  h2,
+  h3,
+  h5,
+  h6 {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: teal;
+  }
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+p.small{
+font-size: 0.8rem;
+color: #868e96;
+margin-bottom: 2em !important;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+/* ================================================= */
+
+/* JUMBOTRON */
+.jumbotron-img {
+  position: relative;
+  background-image: url(../img/grubpic.png);
+  background-size: cover;
+  overflow: hidden;
+  height: 300px;
+  margin-top: -10px;
+}
+
+.display-4 {
+  font-size: 70px;
+}
+
+@media (max-width: 600px) {
+  .jumbotron-img {
+    height: 260px;
+    margin-top: -30px;
+    align-items: center;
+  }
+}
+/* ================================================= */
+
+  section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    /* max-width: 110rem; */
+  }
+  
+  section.resume-section .resume-item .resume-date {
+    min-width: none;
+  }
+
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    section.resume-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  /* ================================== */
+  .cp {
+    margin-top: -70px;
+  }

@@ -1,0 +1,76 @@
+
+.main   {
+    padding-left: 22px;
+    padding-right: 0px;
+}
+
+.con   {
+    height: 860px;
+    width: 101%;
+}
+
+.ser    {
+    width: 101%;
+}
+
+.judul {
+    height: 820px;
+    overflow: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.content {
+    color: rgb(184, 187, 155);
+    margin-left: 10px;
+    margin-right: -10px;
+    margin-top: 10px;
+    height: 820px;
+    overflow: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(214, 210, 210);
+    border-radius: 5px;  
+}
+
+.tombol {
+    margin-left: 5px;
+}
+
+.navbar-brand {
+    margin-right: 40px;
+}
+
+.navbar {
+    z-index: 9999;
+}
+
+.search {
+    margin: auto;
+    width: 40em;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+
+/* Admin */
+.conten {
+    height: 600px;
+    width: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+    .judul {
+        height: 300px;
+        margin-left: 2px;
+        overflow: auto;
+    }
+
+    .content {
+        height: 520px;
+        overflow: auto;
+        margin-right: 8px;
+    }
+} 
